@@ -13,7 +13,7 @@ export const DashboardSection = (): JSX.Element => {
           <img
             className="w-[346px] h-[400px] object-cover mb-2 mr-16"
             alt="Visual"
-            src="public/Visual.png"
+            src="https://www.aiteamforce.com/_next/image?url=%2Fsella.webp&w=640&q=75"
           />
         </div>
         <div className="flex flex-col ml-8">
