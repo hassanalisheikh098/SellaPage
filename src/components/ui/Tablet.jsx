@@ -1,7 +1,6 @@
 "use client";
 import React, { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
-import pic from "../../../public/visual.png"
 
 
 
