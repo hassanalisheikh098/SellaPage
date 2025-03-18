@@ -1,0 +1,154 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --body-l-font-family: "Inter", Helvetica;
+  --body-l-font-size: 20px;
+  --body-l-font-style: normal;
+  --body-l-font-weight: 400;
+  --body-l-letter-spacing: -0.0019999999552965165px;
+  --body-l-line-height: 31px;
+  --body-m-font-family: "Inter", Helvetica;
+  --body-m-font-size: 16px;
+  --body-m-font-style: normal;
+  --body-m-font-weight: 400;
+  --body-m-letter-spacing: -0.001599999964237213px;
+  --body-m-line-height: 26px;
+  --body-s-font-family: "Inter", Helvetica;
+  --body-s-font-size: 14px;
+  --body-s-font-style: normal;
+  --body-s-font-weight: 400;
+  --body-s-letter-spacing: -0.0013999999687075615px;
+  --body-s-line-height: 26px;
+  --body-XS-font-family: "Inter", Helvetica;
+  --body-XS-font-size: 13px;
+  --body-XS-font-style: normal;
+  --body-XS-font-weight: 400;
+  --body-XS-letter-spacing: -0.0012999999709427358px;
+  --body-XS-line-height: 26px;
+  --heading-1-font-family: "Inter", Helvetica;
+  --heading-1-font-size: 82px;
+  --heading-1-font-style: normal;
+  --heading-1-font-weight: 500;
+  --heading-1-letter-spacing: -4.149199953079224px;
+  --heading-1-line-height: 84px;
+  --heading-2-font-family: "Inter", Helvetica;
+  --heading-2-font-size: 56px;
+  --heading-2-font-style: normal;
+  --heading-2-font-weight: 500;
+  --heading-2-letter-spacing: -0.84px;
+  --heading-2-line-height: 65px;
+  --heading-3-font-family: "Inter", Helvetica;
+  --heading-3-font-size: 32px;
+  --heading-3-font-style: normal;
+  --heading-3-font-weight: 500;
+  --heading-3-letter-spacing: -0.012799999713897704px;
+  --heading-3-line-height: 38px;
+  --heading-5-font-family: "Inter", Helvetica;
+  --heading-5-font-size: 16px;
+  --heading-5-font-style: normal;
+  --heading-5-font-weight: 500;
+  --heading-5-letter-spacing: -0.001599999964237213px;
+  --heading-5-line-height: 31px;
+  --heading-6-font-family: "Inter", Helvetica;
+  --heading-6-font-size: 13px;
+  --heading-6-font-style: normal;
+  --heading-6-font-weight: 500;
+  --heading-6-letter-spacing: -0.0012999999709427358px;
+  --heading-6-line-height: 26px;
+  --quote-font-family: "Inter", Helvetica;
+  --quote-font-size: 23px;
+  --quote-font-style: normal;
+  --quote-font-weight: 500;
+  --quote-letter-spacing: -0.002299999948590994px;
+  --quote-line-height: 34px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
