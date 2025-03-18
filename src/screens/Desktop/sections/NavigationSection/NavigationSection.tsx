@@ -55,7 +55,7 @@ export const NavigationSection = (): JSX.Element => {
       <div className="flex items-center justify-center p-1.5 rounded-xl border border-solid border-[#ffffff26]">
         <Button className="w-[109px] h-[30px] px-[15px] py-0.5 bg-[#8c45ff66] rounded-lg border border-solid border-[#ffffff26] shadow-[inset_0px_0px_6px_3px_#ffffff40] backdrop-blur-[7px] hover:bg-[#8c45ff80]">
           <span className="font-body-s text-white text-[length:var(--body-s-font-size)] text-center tracking-[var(--body-s-letter-spacing)] leading-[var(--body-s-line-height)] whitespace-nowrap">
-            Join waitlist
+            Book Demo
           </span>
         </Button>
       </div>
